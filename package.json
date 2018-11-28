@@ -1,0 +1,40 @@
+{
+  "name": "traffic-etl",
+  "version": "0.0.1",
+  "description": "ETL scripts for BASt traffic dataset",
+  "main": "index.js",
+  "scripts": {
+    "download": "node src/download.js",
+    "import": "node src/import.js",
+    "stations": "node src/stations.js",
+    "wikidata": "node src/wikidata.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbkd/traffic-etl.git"
+  },
+  "keywords": [
+    "ETL",
+    "dataset"
+  ],
+  "author": "g-div",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbkd/traffic-etl/issues"
+  },
+  "homepage": "https://github.com/wbkd/traffic-etl#readme",
+  "dependencies": {
+    "@mapbox/geojson-merge": "^1.0.2",
+    "axios": "^0.18.0",
+    "csv-parse": "^2.0.4",
+    "mapshaper": "^0.4.64",
+    "moment": "^2.20.1",
+    "mongodb": "^3.0.4",
+    "osmtogeojson": "^3.0.0-beta.3",
+    "stream-transform": "^1.0.2",
+    "unzip": "^0.1.11",
+    "unzip-stream": "^0.3.0",
+    "xmldom": "^0.1.27"
+  }
+}
