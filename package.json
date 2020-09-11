@@ -27,7 +27,7 @@
   "dependencies": {
     "@mapbox/geojson-merge": "^1.0.2",
     "axios": "^0.18.0",
-    "csv-parse": "^2.0.4",
+    "csv-parse": "^4.4.6",
     "mapshaper": "^0.4.64",
     "moment": "^2.20.1",
     "mongodb": "^3.0.4",
