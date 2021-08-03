@@ -35,6 +35,6 @@
     "stream-transform": "^1.0.2",
     "unzip": "^0.1.11",
     "unzip-stream": "^0.3.0",
-    "xmldom": "^0.1.27"
+    "xmldom": "^0.6.0"
   }
 }
