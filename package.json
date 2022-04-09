@@ -29,7 +29,7 @@
     "axios": "^0.18.0",
     "csv-parse": "^2.0.4",
     "mapshaper": "^0.4.64",
-    "moment": "^2.20.1",
+    "moment": "^2.29.2",
     "mongodb": "^3.0.4",
     "osmtogeojson": "^3.0.0-beta.3",
     "stream-transform": "^1.0.2",
