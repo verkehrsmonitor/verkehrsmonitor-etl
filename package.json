@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/wbkd/traffic-etl#readme",
   "dependencies": {
-    "@mapbox/geojson-merge": "^1.0.2",
+    "@mapbox/geojson-merge": "^1.1.1",
     "axios": "^0.18.0",
     "csv-parse": "^2.0.4",
     "mapshaper": "^0.4.64",
